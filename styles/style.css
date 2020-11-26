@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url(c:\Users\Евгений\Desktop\Git\Portfolio\LayoutInvestFamily\styles\fonts.css);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.container {
+  max-width: 1520px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__item {
+  margin-left: 60px;
+}
+
+.header__item:first-child {
+  margin-left: 0px;
+}
+
+.header__item a {
+  text-decoration: none;
+  color: #272b34;
+  font-weight: 500;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header__item a:hover {
+  color: #9c93fc;
+}
+
+.header__auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 270px;
+  width: 100%;
+}
+
+.header__signin {
+  color: #9c93fc;
+  text-decoration: none;
+}
+
+.header__signin:hover {
+  text-decoration: underline;
+}
+
+.header__signup {
+  display: inline-block;
+  padding: 23px 38px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #9c93fc;
+  border-radius: 50px;
+  -webkit-box-shadow: 2px 16px 24px 5px rgba(0, 8, 88, 0.09);
+  box-shadow: 2px 16px 24px 5px rgba(0, 8, 88, 0.09);
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.header__signup:hover {
+  background: #9c93fc;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

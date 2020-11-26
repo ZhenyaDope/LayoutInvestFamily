@@ -1,0 +1,74 @@
+.header{
+    padding-top: 40px;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        img{
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    &__list{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        margin-left: 60px;
+        &:first-child{
+            margin-left: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: #272b34;
+            font-weight: 500;
+            transition: .3s;
+            &:hover{
+                color: #9c93fc;
+            }
+        }
+    }
+    &__auth{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width:270px;
+        width:100%;
+    }
+    &__signin{
+        color: #9c93fc;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    &__signup{
+        display: inline-block;
+        padding: 23px 38px;
+        border: 1px solid transparent;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        color: #9c93fc;
+        border-radius: 50px;
+        -webkit-box-shadow: 2px 16px 24px 5px rgba(0,8,88,.09);
+        box-shadow: 2px 16px 24px 5px rgba(0,8,88,.09);
+        -webkit-transition: .3s;
+        transition: .3s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        &:hover{
+            background:#9c93fc;
+            color:#fff;
+        }
+    }
+}

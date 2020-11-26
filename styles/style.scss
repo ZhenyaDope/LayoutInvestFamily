@@ -1,0 +1,26 @@
+// Connect font-family "SF UI Text"
+
+@import 'fonts.css';
+
+
+
+
+// Discharge default stylesheet
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+// Use fron-family
+body{
+    background-color: #fff;
+    font-family: 'SF UI Text', sans-serif;
+}
+
+@import 'global';
+
+@import 'header';
+
