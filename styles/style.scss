@@ -18,9 +18,15 @@
 body{
     background-color: #fff;
     font-family: 'SF UI Text', sans-serif;
+    position: relative;
+    background: url('../assets/img/intro/bg.png') no-repeat top center;
+    background-size: 70%;
+    background-position: 900px 0px;
 }
 
 @import 'global';
 
 @import 'header';
+
+@import 'intro';
 

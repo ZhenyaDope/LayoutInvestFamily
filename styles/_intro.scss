@@ -1,0 +1,33 @@
+.intro{
+    margin-top: 150px;
+    position: relative;
+    
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 380px;
+    }
+    &__title{
+        font-size: 56px;
+        color: #272b34;
+        font-weight: 900;
+        line-height: 80px;
+        margin-bottom: 70px;
+    }
+    &__subtitle{
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 48px;
+        border-left: 1px solid #3e4045;
+        margin-bottom: 98px;
+        max-width: 500px;
+        font-weight: 300;
+    }
+    &__btn{
+        padding: 23px 53px;
+
+    }
+}

@@ -4,6 +4,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     &__logo{
         img{
@@ -55,6 +57,7 @@
         text-align: center;
         text-decoration: none;
         color: #9c93fc;
+        background: #fff;
         border-radius: 50px;
         -webkit-box-shadow: 2px 16px 24px 5px rgba(0,8,88,.09);
         box-shadow: 2px 16px 24px 5px rgba(0,8,88,.09);

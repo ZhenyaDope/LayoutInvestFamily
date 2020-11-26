@@ -10,6 +10,10 @@
 body {
   background-color: #fff;
   font-family: 'SF UI Text', sans-serif;
+  position: relative;
+  background: url("../assets/img/intro/bg.png") no-repeat top center;
+  background-size: 70%;
+  background-position: 900px 0px;
 }
 
 .container {
@@ -17,6 +21,15 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #9c93fc;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 50px;
 }
 
 .header {
@@ -33,6 +46,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header__logo img {
@@ -103,6 +118,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: #9c93fc;
+  background: #fff;
   border-radius: 50px;
   -webkit-box-shadow: 2px 16px 24px 5px rgba(0, 8, 88, 0.09);
   box-shadow: 2px 16px 24px 5px rgba(0, 8, 88, 0.09);
@@ -119,5 +135,48 @@ body {
 .header__signup:hover {
   background: #9c93fc;
   color: #fff;
+}
+
+.intro {
+  margin-top: 150px;
+  position: relative;
+}
+
+.intro__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 380px;
+}
+
+.intro__title {
+  font-size: 56px;
+  color: #272b34;
+  font-weight: 900;
+  line-height: 80px;
+  margin-bottom: 70px;
+}
+
+.intro__subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 48px;
+  border-left: 1px solid #3e4045;
+  margin-bottom: 98px;
+  max-width: 500px;
+  font-weight: 300;
+}
+
+.intro__btn {
+  padding: 23px 53px;
 }
 /*# sourceMappingURL=style.css.map */
