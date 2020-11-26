@@ -18,4 +18,48 @@
     font-weight: 500;
     font-size:16px;
     border-radius: 50px;
+    transition: .3s;
+    border:1px solid #9c93fc;
+    box-shadow: 2px 16px 24px 5px rgba(0,8,88,.09);
+    &:hover{
+        color:#9c93fc;
+        background:#fff;
+        text-decoration: none;
+        
+    }
+}
+
+.btn-white{
+    color: #9c93fc;
+    background-color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size:16px;
+    border-radius: 50px;
+    transition: .3s;
+    box-shadow: 2px 16px 24px 5px rgba(0,8,88,.09);
+    &:hover{
+        background-color: #9c93fc;
+        color:#fff;
+        text-decoration: none;
+    }
+}
+
+
+
+
+// HEADING
+
+.section-title{
+    position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 15px;
+            background-color: #9c93fc;
+        }
 }
