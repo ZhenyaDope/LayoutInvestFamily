@@ -316,4 +316,59 @@ body {
 .about__btn {
   padding: 23px 38px;
 }
+
+.target__wrapper {
+  padding: 60px;
+  margin-bottom: 90px;
+  -webkit-box-shadow: 3px 21px 51px 17px rgba(39, 43, 52, 0.09);
+          box-shadow: 3px 21px 51px 17px rgba(39, 43, 52, 0.09);
+  border-radius: 3px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.target__title {
+  position: relative;
+  color: #272b34;
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 40px;
+  width: 190px;
+}
+
+.target__title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 17px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #9c93fc;
+}
+
+.target__text {
+  max-width: 490px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.target__text a {
+  margin-top: 20px;
+  display: block;
+  color: #9c93fc;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
