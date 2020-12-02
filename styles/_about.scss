@@ -52,3 +52,49 @@
         padding: 23px 38px;
     }
 }
+
+
+@media (max-width:1540px){
+    .about{
+        &__buttons{
+            width:95%;
+        }
+    }
+}
+
+
+@media (max-width:1200px){
+    .about{
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__video{
+            width:100%;
+            margin-bottom: 50px;
+        }
+        &__content{
+            width:100%;
+        }
+        &__buttons{
+            justify-content: flex-start;
+            width:100%;
+            :first-child{
+                margin-right: 30px;
+            }
+            
+        }
+        &__btn{
+            padding: 17px 53px;
+            
+        }
+    }
+}
+
+
+@media(max-width:767px){
+    .about{
+        &__content{
+            padding-left: 0;
+        }
+    }
+}

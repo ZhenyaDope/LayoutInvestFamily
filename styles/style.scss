@@ -17,7 +17,7 @@
 // Use fron-family
 body{
     background-color: #fff;
-    font-family: 'SF UI Text', sans-serif;
+    font-family: 'SF UI Display',Arial,sans-serif;
     position: relative;
     background: url('../assets/img/intro/bg.png') no-repeat top center;
     background-size: 70%;
@@ -43,3 +43,11 @@ body{
 @import 'partners';
 
 @import 'footer';
+
+
+
+@media (max-width:1800px){
+    body{
+        background-image:none;
+    }
+}

@@ -18,6 +18,7 @@
         margin-bottom: 70px;
     }
     &__subtitle{
+        font-family: 'SF UI Text',sans-serif;
         font-size: 20px;
         line-height: 30px;
         padding-left: 48px;
@@ -29,5 +30,35 @@
     &__btn{
         padding: 23px 53px;
 
+    }
+}
+
+
+
+
+@media (max-width:1200px){
+    .intro{
+        margin-top: 90px;
+        &__title{
+            font-size: 48px;
+            line-height: 1.15;
+        }
+        &__btn{
+            padding: 17px 53px;
+        }
+        &__wrapper{
+            margin-bottom: 150px;
+        }
+    }
+}
+
+@media(max-width:767px){
+    .intro{
+        &__title{
+            font-size: 38px;
+        }
+        &__subtitle{
+            padding-left: 26px;
+        }
     }
 }

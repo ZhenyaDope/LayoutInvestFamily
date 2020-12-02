@@ -43,3 +43,30 @@
         }
     }
 }
+
+
+
+@media (max-width:1540px){
+    .target{
+        &__wrapper{
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        &__title{
+            margin-bottom: 20px;
+        }
+        &__text{
+            max-width:100%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+@media(max-width:767px){
+    .target{
+        &__wrapper{
+            padding-bottom: 30px;
+        }
+    }
+}

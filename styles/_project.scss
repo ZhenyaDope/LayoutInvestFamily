@@ -4,6 +4,7 @@
         display: flex;
         justify-content: space-between;
         position: relative;
+        min-width: 0px;
     }
     &__text{
         width:50%;
@@ -22,6 +23,7 @@
     }
     &__portfolio{
         width:50%;
+        min-width: 0px;
     }
     &__slider-item{
         max-width: 355px;
@@ -91,12 +93,95 @@
         top: 40px;
         left: 270px;
         outline: none;
+        color:#9C93FC;
     }
     &__slider-arrow-prev{
         position: absolute;
         top:40px;
         left:213px;
         outline: none;
+        color:#9C93FC;
+
     }
 
+}
+
+
+
+
+@media (max-width:1540px){
+    .project{
+        &__text{
+            padding: 0;
+            padding-left: 20px;
+        }
+        &__portfolio{
+            width:40%;
+        }
+        &__slider-arrow-next{
+            position: absolute;
+            top: 40px;
+            left: 70px;
+            outline: none;
+        }
+        &__slider-arrow-prev{
+            position: absolute;
+            top:40px;
+            left:13px;
+            outline: none;
+        }
+    }
+}
+
+
+
+@media (max-width:1200px){
+    .project{
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__btn{
+            margin-top:20px;
+            padding: 17px 53px;
+        }
+        &__text{
+            margin-bottom: 50px;
+        }
+        &__portfolio{
+            width:100%;
+        }
+    }
+}
+
+
+@media(max-width:767px){
+    .project{
+        margin-bottom: 130px;
+        &__title{
+            font-size: 38px;
+        }
+        &__wrapper{
+            width:80%;
+            margin: 0 auto;
+        }
+
+
+
+
+        &__slider-arrow-next{
+            position: absolute;
+            top: 80px;
+            left:70px;
+            outline: none;
+            color:#9C93FC;
+        }
+        &__slider-arrow-prev{
+            position: absolute;
+            top:80px;
+            left:20px;
+            outline: none;
+            color:#9C93FC;
+    
+        }
+    }
 }
